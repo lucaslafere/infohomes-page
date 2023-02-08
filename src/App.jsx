@@ -1,11 +1,11 @@
 import { ThemeProvider } from "styled-components";
-import { Button } from "./components/buttons/Subscribe/style";
+import Subscribe from "./components/buttons/Subscribe";
 import { theme } from "./theme/theme";
 
 export default function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Button />
+      <Subscribe />
     </ThemeProvider>
   );
 }
