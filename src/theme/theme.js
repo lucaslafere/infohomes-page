@@ -11,4 +11,7 @@ export const theme = {
   Green75: "#00AD6F",
   Green25: "#C3E0D4",
   Green5: "#E4F1EC",
+  Blue100: "#1A49B2",
+  Blue75: "#2563EB",
+  Blue5: "#EFF6FF",
 };
