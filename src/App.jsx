@@ -5,7 +5,8 @@ import { theme } from "./theme/theme";
 export default function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Community>Facebook</Community>
+      <Community>Top Opportunities</Community>
+      <Community>Data Health</Community>
     </ThemeProvider>
   );
 }
