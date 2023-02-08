@@ -16,4 +16,8 @@ export const Button = styled.button`
   font-size: 16px;
   line-height: 24px;
   color: ${({ theme }) => theme.Gray0};
+  cursor: pointer;
+  :hover {
+    background-color: ${({ theme }) => theme.Green100};
+  }
 `;
