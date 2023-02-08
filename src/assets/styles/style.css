@@ -29,3 +29,9 @@ h2 {
   font-size: 28px;
   line-height: 40px;
 }
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
