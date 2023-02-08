@@ -17,6 +17,7 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
+  gap: 20px;
 }
 .root {
   margin: 0 auto;
