@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  transition: all ease 0.2s;
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.root {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #fff;
+}
