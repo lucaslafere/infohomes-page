@@ -10,5 +10,10 @@ export const Button = styled.button`
   height: 42px;
   padding: 9px 24px;
   border: 0;
-  color: #fff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: ${({ theme }) => theme.Gray0};
 `;
