@@ -7,8 +7,11 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:react/jsx-runtime"
+    "plugin:react/jsx-runtime",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
   ],
+  "parser": "@typescript-eslint/parser",
 
   "parserOptions": {
     "ecmaVersion": 2018,
@@ -68,12 +71,16 @@
       {
         "before": true,
         "after": true
-      }]
+      }
+    ]
   },
-  "ignorePatterns": ["style.js"],
+  "ignorePatterns": ["style.ts"],
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
     }
   }
 }
