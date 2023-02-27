@@ -2,10 +2,13 @@ import styled from "styled-components";
 
 export const CallToAction = styled.div`
   display: flex;
-  background: radial-gradient(
-    131.42% 122.58% at 50% 50%,
-    rgba(217, 217, 217, 0.02) 6.77%,
-    rgba(217, 217, 217, 0.8) 99.73%,
-    rgba(217, 217, 217, 0.6) 100%
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 40vh;
+  background: linear-gradient(
+    45deg,
+    ${(props) => props.theme.Green[25]},
+    ${(props) => props.theme.Green[5]}
   );
 `;
