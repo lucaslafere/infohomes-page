@@ -1,9 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,500;1,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,500;0,600;1,500;1,600&display=swap");
+import { createGlobalStyle } from "styled-components";
+
+export default createGlobalStyle`
 * {
   box-sizing: border-box;
   transition: all ease 0.2s;
   text-decoration: none;
+  margin: 0 auto;
+  padding: 0;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -43,3 +46,4 @@ h3 {
   font-size: 18px;
   line-height: 24px;
 }
+`;
