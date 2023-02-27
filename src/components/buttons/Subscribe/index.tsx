@@ -1,5 +1,5 @@
 import * as S from "./style";
 
-export default function Subscribe() {
+export const Subscribe = () => {
   return <S.Button>Subscribe</S.Button>;
-}
+};

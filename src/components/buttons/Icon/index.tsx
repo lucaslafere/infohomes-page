@@ -1,9 +1,10 @@
+import { FC } from "react";
 import * as S from "./style";
 
-type Props {
+interface iProps {
   children: React.ReactNode;
 }
 
-export default function Icon<Props>({ children }) {
+export const Icon: FC<iProps> = ({ children }) => {
   return <S.Icon>{children}</S.Icon>;
-}
+};
