@@ -6,7 +6,7 @@ export const Card = styled.div`
   align-items: flex-start;
   width: 100%;
   height: 100%;
-  background: ${({ theme }) => theme.Gray0};
+  background: ${({ theme }) => theme.Gray[0]};
   border-radius: 4px;
   padding: 20px;
   gap: 16px;
