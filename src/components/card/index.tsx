@@ -1,5 +1,9 @@
+import { FC } from "react";
 import * as S from "./style";
 
-export default function Card({ children }) {
-  return <S.Card>{children}</S.Card>;
+interface iProps {
+  children: React.ReactNode;
 }
+export const Card: FC<iProps> = ({ children }) => {
+  return <S.Card>{children}</S.Card>;
+};
