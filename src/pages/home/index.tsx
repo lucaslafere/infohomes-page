@@ -8,11 +8,13 @@ import * as S from "./style";
 
 export const Home: FC = () => {
   return (
-    <Card>
-      <Icon>iconezao</Icon>
-      <How />
-      <Subscribe />
-      <Community>Facebookzada</Community>
-    </Card>
+    <S.CallToAction>
+      <Card>
+        <Icon>iconezao</Icon>
+        <How />
+        <Subscribe />
+        <Community>Facebookzada</Community>
+      </Card>
+    </S.CallToAction>
   );
 };

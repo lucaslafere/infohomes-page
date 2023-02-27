@@ -4,8 +4,8 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 100%;
-  height: 100%;
+  width: 426px;
+  height: 336px;
   background: ${({ theme }) => theme.Gray[0]};
   border-radius: 4px;
   padding: 20px;
@@ -14,5 +14,6 @@ export const Card = styled.div`
     0px 16px 24px -10px rgba(149, 149, 149, 0.2);
   :hover {
     transform: scale(1.05);
+    border: 1px solid ${({ theme }) => theme.Green[75]};
   }
 `;
