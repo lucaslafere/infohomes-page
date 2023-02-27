@@ -7,9 +7,9 @@ export const Icon = styled.div`
   border-radius: 4px;
   width: 36px;
   height: 36px;
-  color: ${({ theme }) => theme.Gray50};
+  color: ${({ theme }) => theme.Gray[50]};
   :hover {
-    color: ${({ theme }) => theme.Gray100};
+    color: ${({ theme }) => theme.Gray[100]};
   }
   img {
     width: 24px;

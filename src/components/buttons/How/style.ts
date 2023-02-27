@@ -7,7 +7,7 @@ export const Button = styled.button`
   padding: 9px 24px;
   width: 170px;
   height: 42px;
-  border: 1px solid ${({ theme }) => theme.Green25};
+  border: 1px solid ${({ theme }) => theme.Green[25]};
   border-radius: 4px;
   background-color: #fff;
   cursor: pointer;
@@ -17,9 +17,9 @@ export const Button = styled.button`
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  color: ${({ theme }) => theme.Green100};
+  color: ${({ theme }) => theme.Green[100]};
 
   :hover {
-    background-color: ${({ theme }) => theme.Green25};
+    background-color: ${({ theme }) => theme.Green[25]};
   }
 `;
