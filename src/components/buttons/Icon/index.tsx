@@ -1,6 +1,6 @@
 import * as S from "./style";
 
-interface Props {
+type Props {
   children: React.ReactNode;
 }
 
