@@ -11,11 +11,11 @@ export const CallToAction: FC = () => {
   return (
     <S.CallToAction>
       <Card>
-        <Icon>iconezao</Icon>
+        <Icon>👋</Icon>
         <How />
         <Subscribe />
-        <Community>Facebookzada</Community>
-        <Input type="search" placeholder="testando input" />
+        <Community>Facebook</Community>
+        <Input icon="🔍" type="search" placeholder="Search" />
       </Card>
     </S.CallToAction>
   );
