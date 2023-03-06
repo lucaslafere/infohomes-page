@@ -1,8 +1,9 @@
 import { FC } from "react";
 import * as S from "./style";
 
-interface iProps {
-  children: React.ReactNode;
+export interface iProps {
+  children?: React.ReactNode;
+  label?: string;
 }
 
 export const Icon: FC<iProps> = ({ children }) => {
