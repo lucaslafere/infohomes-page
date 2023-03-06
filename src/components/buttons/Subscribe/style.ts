@@ -10,11 +10,12 @@ export const Button = styled.button`
   height: 42px;
   padding: 9px 24px;
   border: 0;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
+
+  font-family: ${({ theme }) => theme.typography.Button1.font};
+  font-weight: ${({ theme }) => theme.typography.Button1.weight};
+  font-size: ${({ theme }) => theme.typography.Button1.size};
+  line-height: ${({ theme }) => theme.typography.Button1.lineHeight};
+
   color: ${({ theme }) => theme.Gray[0]};
   cursor: pointer;
   :hover {

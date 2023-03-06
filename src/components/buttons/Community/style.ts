@@ -6,11 +6,11 @@ export const Community = styled.a`
   justify-content: center;
   cursor: pointer;
 
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-family: ${({ theme }) => theme.typography.Button2.font};
+  font-weight: ${({ theme }) => theme.typography.Button2.weight};
+  font-size: ${({ theme }) => theme.typography.Button2.size};
+  line-height: ${({ theme }) => theme.typography.Button2.lineHeight};
+
   color: ${({ theme }) => theme.Gray[50]};
   :hover {
     color: ${({ theme }) => theme.Gray[100]};
