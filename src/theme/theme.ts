@@ -1,32 +1,33 @@
 import { DefaultTheme } from "styled-components";
+type TypographyType = {
+  font: string;
+  weight: number;
+  size: string;
+  lineHeight: string;
+};
+type ColorType = {
+  [index: string]: string;
+};
 
 declare module "styled-components" {
   export interface DefaultTheme {
-    Gray: {
-      100: string;
-      75: string;
-      50: string;
-      25: string;
-      15: string;
-      10: string;
-      5: string;
-      0: string;
-    };
-    Green: {
-      100: string;
-      75: string;
-      25: string;
-      5: string;
-    };
-    Blue: {
-      100: string;
-      75: string;
-      5: string;
-    };
-    Red: {
-      100: string;
-      75: string;
-      5: string;
+    Gray: ColorType;
+    Green: ColorType;
+    Blue: ColorType;
+    Red: ColorType;
+    typography: {
+      Heading0: TypographyType;
+      Heading1: TypographyType;
+      Heading2: TypographyType;
+      Heading3: TypographyType;
+      Subtitle: TypographyType;
+      Body1: TypographyType;
+      Body2: TypographyType;
+      Button1: TypographyType;
+      Button2: TypographyType;
+      Caption1: TypographyType;
+      Caption2: TypographyType;
+      Uppercase: TypographyType;
     };
   }
 }
@@ -57,5 +58,79 @@ export const theme: DefaultTheme = {
     100: "#A82424",
     75: "#DC2626",
     5: "#FEF2F2",
+  },
+  typography: {
+    Heading0: {
+      font: "Poppins",
+      weight: 600,
+      size: "40px",
+      lineHeight: "48px",
+    },
+    Heading1: {
+      font: "Poppins",
+      weight: 600,
+      size: "32px",
+      lineHeight: "40px",
+    },
+    Heading2: {
+      font: "Poppins",
+      weight: 600,
+      size: "28px",
+      lineHeight: "40px",
+    },
+    Heading3: {
+      font: "Poppins",
+      weight: 500,
+      size: "18px",
+      lineHeight: "24px",
+    },
+    Subtitle: {
+      font: "Open Sans",
+      weight: 400,
+      size: "20px",
+      lineHeight: "28px",
+    },
+    Body1: {
+      font: "Open Sans",
+      weight: 400,
+      size: "16px",
+      lineHeight: "24px",
+    },
+    Body2: {
+      font: "Open Sans",
+      weight: 400,
+      size: "14px",
+      lineHeight: "20px",
+    },
+    Button1: {
+      font: "Poppins",
+      weight: 600,
+      size: "16px",
+      lineHeight: "24px",
+    },
+    Button2: {
+      font: "Poppins",
+      weight: 500,
+      size: "16px",
+      lineHeight: "24px",
+    },
+    Caption1: {
+      font: "Open Sans",
+      weight: 600,
+      size: "14px",
+      lineHeight: "20px",
+    },
+    Caption2: {
+      font: "Open Sans",
+      weight: 600,
+      size: "12px",
+      lineHeight: "16px",
+    },
+    Uppercase: {
+      font: "Open Sans",
+      weight: 700,
+      size: "12px",
+      lineHeight: "16px",
+    },
   },
 };
