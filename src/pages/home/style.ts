@@ -8,7 +8,7 @@ export const CallToAction = styled.div`
   height: 100vh;
   background: linear-gradient(
     45deg,
-    ${(props) => props.theme.Green[25]},
-    ${(props) => props.theme.Green[5]}
+    ${({ theme }) => theme.Green[25]},
+    ${({ theme }) => theme.Green[5]}
   );
 `;
