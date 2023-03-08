@@ -10,7 +10,7 @@ export const FooterContainer = styled.footer`
 `;
 export const FooterWrapper = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 80%;
