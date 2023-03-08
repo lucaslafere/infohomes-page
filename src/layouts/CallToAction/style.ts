@@ -4,8 +4,7 @@ export const CallToAction = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  min-height: 200px;
+  min-height: 496px;
   background: linear-gradient(
     45deg,
     ${({ theme }) => theme.Green[25]},
