@@ -8,15 +8,5 @@ import { Input } from "../../components/input";
 import * as S from "./style";
 
 export const CallToAction: FC = () => {
-  return (
-    <S.CallToAction>
-      <Card>
-        <Icon>👋</Icon>
-        <How />
-        <Subscribe />
-        <Community>Facebook</Community>
-        <Input icon="🔍" type="search" placeholder="Search" />
-      </Card>
-    </S.CallToAction>
-  );
+  return <S.CallToAction></S.CallToAction>;
 };
