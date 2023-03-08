@@ -4,6 +4,7 @@ export const Input = styled.input`
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 
   gap: 10px;
   padding: 9px 13px;

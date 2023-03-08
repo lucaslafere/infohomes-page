@@ -43,5 +43,6 @@ export const SubscribeForm = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 60%;
+  gap: 12px;
+  width: 40%;
 `;
